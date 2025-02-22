@@ -1,18 +1,23 @@
-## Getting Started
+Carrito de Compras
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Descripción:
 
-## Folder Structure
+Este es un proyecto para gestionar un carrito de compras. El programa permite a los usuarios agregar, eliminar productos en su carrito, aplicar descuentos a los productos, y generar un ticket con el resumen de la compra.
 
-The workspace contains two folders by default, where:
+Funcionalidades:
+- Agregar productos: Los usuarios pueden agregar productos al carrito, indicando el nombre, la cantidad y el precio.
+- Eliminar productos: Los usuarios pueden eliminar productos existentes en el carrito.
+- Aplicar descuentos: Los usuarios pueden indicar el porcentaje de descuento y el programa verifica si cumple la cantidad requeriada en cada producto para aplicar el descuento.
+- Finalizar compra y generar ticket: El sistema genera un ticket que muestra el nombre del producto, la cantidad, el precio con descuento, el subtotal de cada producto, si aplica descuento y el total de la compra.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Instrucciones de uso:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Al ejecutar el programa, el usuario verá un menú interactivo con las siguientes opciones:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+° Agregar producto: Permite agregar un producto al carrito. El usuario deberá ingresar el nombre del producto, la cantidad y el precio unitario.
+° Eliminar producto: Permite eliminar un producto del carrito, proporcionando el nombre del producto.
+° Aplicar descuento: Permite aplicar un descuento a todos los productos del carrito. El descuento se aplica como un porcentaje (por ejemplo, 10 para un 10% de descuento).
+° Finalizar compra y generar ticket: Muestra un resumen de todos los productos en el carrito, incluyendo nombre, cantidad, precio, subtotal y total a pagar.
+° Salir: Finaliza el programa.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Gracias
